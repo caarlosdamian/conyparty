@@ -127,7 +127,7 @@ export const MONTHS = {
 };
 
 export const EVENT: EventI = {
-  saveTitle: '60 Cony',
+  saveTitle: 'Fiesta Sorpresa Cony 60',
   parents: null,
   godFathers: null,
   ceremonyTime: null,
