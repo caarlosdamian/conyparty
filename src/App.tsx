@@ -1,5 +1,5 @@
 import useAudio from 'beautiful-react-hooks/useAudio';
-import arco from './assets/arco4.mp3';
+import arco from './assets/arco5.mp3';
 import { Toaster } from 'react-hot-toast';
 import { AiFillSound, AiOutlinePause } from 'react-icons/ai';
 import {
@@ -39,8 +39,8 @@ function App() {
       <Header />
       <section className="sections">
         <Middle />
-        <Form />
-        <Dress />
+        {/* <Form />
+        <Dress /> */}
         <Recomendations />
       </section>
       {/* <Confirmation /> */}

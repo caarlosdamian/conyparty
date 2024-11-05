@@ -12,10 +12,9 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_REACT_APP_API_KEY,
 };
 
-console.log({firebaseConfig})
 
 // Initialize Firebase
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+const firebaseApp = null 
 // const db = firebase.firestore();
 // export default db;
-export const db = getDatabase(firebaseApp);
+export const db = null

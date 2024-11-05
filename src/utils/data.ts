@@ -5,6 +5,7 @@ import { CardInt } from '../interfaces';
 import instagram from '../assets/instagram.svg';
 import facebook from '../assets/facebook.svg';
 import linkTree from '../assets/linkTree.svg';
+import { EventI } from '../types';
 
 export const cardItems: CardInt[] = [
   {
@@ -125,28 +126,17 @@ export const MONTHS = {
   },
 };
 
-export const EVENT = {
-  saveTitle: 'Save The Date',
-  parents: [
-    {
-      name: 'Nombre Prueba',
-    },
-    {
-      name: 'Nombre Prueba',
-    },
-  ],
-  godFathers: [
-    {
-      name: 'Nombre Prueba',
-    },
-    {
-      name: 'Nombre Prueba',
-    },
-  ],
-  ceremonyTime: '05:30 pm',
-  partyTime: '7:00 pm',
+export const EVENT: EventI = {
+  saveTitle: '60 Cony',
+  parents: null,
+  godFathers: null,
+  ceremonyTime: null,
+  partyTime: '8:00 pm',
   dress: 'No vestidos verdes ni blancos',
   present: 'Transferencia o Sobres 🎁.',
-  date: 'jan 25 2025 17:30:00',
-  month: 0,
+  date: 'dec 7 2024 20:00:00',
+  month: 11,
+  partyMapRef:
+    'https://www.google.com/maps/place/Los+Helechos+-+Jard%C3%ADn+de+Eventos/@19.3082735,-103.7574256,15z/data=!4m2!3m1!1s0x0:0xd90706fcd7fab638?sa=X&ved=1t:2428&ictx=111',
+  photo: 'https://i.ibb.co/47qdQdh/IMG-20190103-102040502-HDR.jpg',
 };

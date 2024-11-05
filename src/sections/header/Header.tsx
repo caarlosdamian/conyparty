@@ -17,7 +17,7 @@ export const Header = () => {
               MONTHS[EVENT.month as keyof typeof MONTHS][
                 language as keyof monthsTranslations
               ],
-            date: '25,2025.',
+            date: '07,2024.',
           })}
         </h3>
         <a href="#middle">
