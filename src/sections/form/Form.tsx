@@ -36,10 +36,10 @@ export const Form = () => {
     try {
       if (formData.confirmado && formData.invitados === '0')
         throw Error('confirmation_error_message');
-      set(ref(db, `confirmation_boda_danny_elias/${userId}`), {
-        ...formData,
-        invitados: formData.confirmado ? formData.invitados : 0,
-      });
+      // set(ref(db, `confirmation_boda_danny_elias/${userId}`), {
+      //   ...formData,
+      //   invitados: formData.confirmado ? formData.invitados : 0,
+      // });
       toast.success(
         formData.confirmado
           ? t('message.confirmation_message', {

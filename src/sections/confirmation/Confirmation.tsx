@@ -15,12 +15,12 @@ export const Confirmation = () => {
   const guest = urlParams.get('guest');
 
   const getInfo = async () => {
-    onValue(ref(db, `invites/${guest}`), (snapshot) => {
-      const data = snapshot.val();
-      if (data !== null) {
-        setGuestInfo(data);
-      }
-    });
+    // onValue(ref(db, `invites/${guest}`), (snapshot) => {
+    //   const data = snapshot.val();
+    //   if (data !== null) {
+    //     setGuestInfo(data);
+    //   }
+    // });
   };
 
   useEffect(() => {
@@ -28,9 +28,9 @@ export const Confirmation = () => {
   }, []);
 
   const updateConfirm = () => {
-    update(ref(db, `invites/${guest}`), {
-      confirm: true,
-    });
+    // update(ref(db, `invites/${guest}`), {
+    //   confirm: true,
+    // });
     toast.success('Haz confirmado ir a los Xvs de Kimberly🍾', {
       duration: 5000,
       position: 'top-center',
